@@ -1,0 +1,53 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hero {
+    background-color: #eee;
+    width: 100%;
+    height: 200vh;
+}
+
+.title {
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.content {
+    width: 90%;
+    height: 110vh;
+    top: 3%;
+    margin: auto;
+    margin-top: 20px;
+    padding: 30px;
+    box-shadow: 5px 5px 5px 5px;
+}
+
+.foo img {
+    width: 350px;
+    border-radius: 25px;
+    left: 10px;
+}
+
+.p {
+    display: flex;
+}
+
+.p .p1 {
+    left: 20px;
+    position: relative;
+    font-size: 30px;
+}
+
+ul {
+    width: 90%;
+    margin-top: 25px;
+    display: block;
+    position: absolute;
+    font-size: 30px;
+    margin-left: 50px;
+}
